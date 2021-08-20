@@ -21,5 +21,11 @@ LOCAL_SHARED_LIBRARIES := \
     vendor.qti.hardware.pal@1.0 \
     libar-pal
 
+LOCAL_HEADER_LIBRARIES := \
+    libspf-headers \
+    libarosal_headers \
+    libarpal_headers \
+    libacdb_headers
+
 include $(BUILD_SHARED_LIBRARY)
 
