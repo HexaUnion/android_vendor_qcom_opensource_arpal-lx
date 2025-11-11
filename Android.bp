@@ -97,6 +97,7 @@ cc_library_shared {
         "stream/src/StreamUltraSound.cpp",
         "utils/src/ACDPlatformInfo.cpp",
         "utils/src/ChargerListener.cpp",
+        "utils/src/MetadataParser.cpp",
         "utils/src/PalRingBuffer.cpp",
         "utils/src/SignalHandler.cpp",
         "utils/src/SoundTriggerPlatformInfo.cpp",
